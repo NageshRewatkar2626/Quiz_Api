@@ -1,0 +1,105 @@
+{% load static %}
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <title>Quiz</title>
+  </head>
+  <body><br><br><br>
+    <table border="1" align="center" cellspacing="0" width="900">
+      <tr><th style="text-align: center;font-size:30px ; height: 60px;background-color: pink">Online Quiz Exam</th></tr>
+           
+        <tr><th>1) {{ques.q1}} {{ value|linebreaks }} 
+  
+  <input type="radio" name="a1" id="one" value= "{{c_ans.a1}}"> A) {{c_ans.a1}} {{ value|linebreaks }}
+  <input type="radio" name="a1" id="one" value="{{x.incorrect_answers.0}}"> B) {{x.incorrect_answers.0}} {{ value|linebreaks }}
+  <input type="radio" name="a1" value="{{x.incorrect_answers.1}}"> C) {{x.incorrect_answers.1}} {{ value|linebreaks }}
+  <input type="radio" name="a1" value="{{x.incorrect_answers.2}}"> D) {{x.incorrect_answers.2}} {{ value|linebreaks }}
+            
+        <button class="btn btn-success" type="submit">Submit</button>{{ value|linebreaks }}</th></tr>
+         <tr><th>2) {{ques.q2}} {{ value|linebreaks }} 
+  
+  <input type="radio" name="a2" id="one" value= "{{c_ans.a2}}"> A) {{c_ans.a2}} {{ value|linebreaks }}
+  <input type="radio" name="a2" id="one" value="{{x.incorrect_answers.0}}"> B) {{x.incorrect_answers.0}} {{ value|linebreaks }}
+  <input type="radio" name="a2" value="{{x.incorrect_answers.1}}"> C) {{x.incorrect_answers.1}} {{ value|linebreaks }}
+  <input type="radio" name="a2" value="{{x.incorrect_answers.2}}"> D) {{x.incorrect_answers.2}} {{ value|linebreaks }}
+            
+        <button class="btn btn-success" type="submit">Submit</button>{{ value|linebreaks }}</th></tr>
+         <tr><th>3) {{ques.q3}} {{ value|linebreaks }} 
+  
+  <input type="radio" name="a3" id="one" value= "{{c_ans.a3}}"> A) {{c_ans.a3}} {{ value|linebreaks }}
+  <input type="radio" name="a3" id="one" value="{{x.incorrect_answers.0}}"> B) {{x.incorrect_answers.0}} {{ value|linebreaks }}
+  <input type="radio" name="a3" value="{{x.incorrect_answers.1}}"> C) {{x.incorrect_answers.1}} {{ value|linebreaks }}
+  <input type="radio" name="a3" value="{{x.incorrect_answers.2}}"> D) {{x.incorrect_answers.2}} {{ value|linebreaks }}
+            
+        <button class="btn btn-success" type="submit">Submit</button>{{ value|linebreaks }}</th></tr>
+         <tr><th>4) {{ques.q4}} {{ value|linebreaks }} 
+  
+  <input type="radio" name="a4" id="one" value= "{{c_ans.a4}}"> A) {{c_ans.a4}} {{ value|linebreaks }}
+  <input type="radio" name="a4" id="one" value="{{x.incorrect_answers.0}}"> B) {{x.incorrect_answers.0}} {{ value|linebreaks }}
+  <input type="radio" name="a4" value="{{x.incorrect_answers.1}}"> C) {{x.incorrect_answers.1}} {{ value|linebreaks }}
+  <input type="radio" name="a4" value="{{x.incorrect_answers.2}}"> D) {{x.incorrect_answers.2}} {{ value|linebreaks }}
+            
+        <button class="btn btn-success" type="submit">Submit</button>{{ value|linebreaks }}</th></tr>
+         <tr><th>5) {{ques.q5}} {{ value|linebreaks }} 
+  
+  <input type="radio" name="a5" id="one" value= "{{c_ans.a5}}"> A) {{c_ans.a5}} {{ value|linebreaks }}
+  <input type="radio" name="a5" id="one" value="{{x.incorrect_answers.0}}"> B) {{x.incorrect_answers.0}} {{ value|linebreaks }}
+  <input type="radio" name="a5" value="{{x.incorrect_answers.1}}"> C) {{x.incorrect_answers.1}} {{ value|linebreaks }}
+  <input type="radio" name="a5" value="{{x.incorrect_answers.2}}"> D) {{x.incorrect_answers.2}} {{ value|linebreaks }}
+            
+        <button class="btn btn-success" type="submit">Submit</button>{{ value|linebreaks }}</th></tr>
+         <tr><th>6) {{ques.q6}} {{ value|linebreaks }} 
+  
+  <input type="radio" name="a6" id="one" value= "{{c_ans.a6}}"> A) {{c_ans.a6}} {{ value|linebreaks }}
+  <input type="radio" name="a6" id="one" value="{{x.incorrect_answers.0}}"> B) {{x.incorrect_answers.0}} {{ value|linebreaks }}
+  <input type="radio" name="a6" value="{{x.incorrect_answers.1}}"> C) {{x.incorrect_answers.1}} {{ value|linebreaks }}
+  <input type="radio" name="a6" value="{{x.incorrect_answers.2}}"> D) {{x.incorrect_answers.2}} {{ value|linebreaks }}
+            
+        <button class="btn btn-success" type="submit">Submit</button>{{ value|linebreaks }}</th></tr>
+         <tr><th>7) {{ques.q7}} {{ value|linebreaks }} 
+  
+  <input type="radio" name="a7" id="one" value= "{{c_ans.a7}}"> A) {{c_ans.a7}} {{ value|linebreaks }}
+  <input type="radio" name="a7" id="one" value="{{x.incorrect_answers.0}}"> B) {{x.incorrect_answers.0}} {{ value|linebreaks }}
+  <input type="radio" name="a7" value="{{x.incorrect_answers.1}}"> C) {{x.incorrect_answers.1}} {{ value|linebreaks }}
+  <input type="radio" name="a7" value="{{x.incorrect_answers.2}}"> D) {{x.incorrect_answers.2}} {{ value|linebreaks }}
+            
+        <button class="btn btn-success" type="submit">Submit</button>{{ value|linebreaks }}</th></tr>
+         <tr><th>8) {{ques.q8}} {{ value|linebreaks }} 
+  
+  <input type="radio" name="a8" id="one" value= "{{c_ans.a8}}"> A) {{c_ans.a8}} {{ value|linebreaks }}
+  <input type="radio" name="a8" id="one" value="{{x.incorrect_answers.0}}"> B) {{x.incorrect_answers.0}} {{ value|linebreaks }}
+  <input type="radio" name="a8" value="{{x.incorrect_answers.1}}"> C) {{x.incorrect_answers.1}} {{ value|linebreaks }}
+  <input type="radio" name="a8" value="{{x.incorrect_answers.2}}"> D) {{x.incorrect_answers.2}} {{ value|linebreaks }}
+            
+        <button class="btn btn-success" type="submit">Submit</button>{{ value|linebreaks }}</th></tr>
+         <tr><th>9) {{ques.q9}} {{ value|linebreaks }} 
+  
+  <input type="radio" name="a9" id="one" value= "{{c_ans.a9}}"> A) {{c_ans.a9}} {{ value|linebreaks }}
+  <input type="radio" name="a9" id="one" value="{{x.incorrect_answers.0}}"> B) {{x.incorrect_answers.0}} {{ value|linebreaks }}
+  <input type="radio" name="a9" value="{{x.incorrect_answers.1}}"> C) {{x.incorrect_answers.1}} {{ value|linebreaks }}
+  <input type="radio" name="a9" value="{{x.incorrect_answers.2}}"> D) {{x.incorrect_answers.2}} {{ value|linebreaks }}
+            
+        <button class="btn btn-success" type="submit">Submit</button>{{ value|linebreaks }}</th></tr>
+         <tr><th>10) {{ques.q10}} {{ value|linebreaks }} 
+  
+  <input type="radio" name="a10" id="one" value= "{{c_ans.a10}}"> A) {{c_ans.a10}} {{ value|linebreaks }}
+  <input type="radio" name="a10" id="one" value="{{x.incorrect_answers.0}}"> B) {{x.incorrect_answers.0}} {{ value|linebreaks }}
+  <input type="radio" name="a10" value="{{x.incorrect_answers.1}}"> C) {{x.incorrect_answers.1}} {{ value|linebreaks }}
+  <input type="radio" name="a10" value="{{x.incorrect_answers.2}}"> D) {{x.incorrect_answers.2}} {{ value|linebreaks }}
+            
+        <button class="btn btn-success" type="submit">Submit</button>{{ value|linebreaks }}</th></tr>
+</table> 
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>
